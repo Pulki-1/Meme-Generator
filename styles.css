@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #FF00FF;
+    color: #FFFFFF;
+    padding: 20px;
+    border-bottom: 3px solid #000000;
+}
+
+.main-title {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px #0000FF;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 5px solid #000000;
+    box-shadow: 15px 15px 0px #FF00FF;
+}
+
+.meme-container {
+    margin: 20px auto;
+    padding: 15px;
+    border: 3px dashed #000000;
+    background-color: #FFFF00;
+}
+
+.meme-container img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #000000;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #FF00FF;
+    color: #FFFFFF;
+    border: 3px solid #000000;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #00FFFF;
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: auto;
+    background-color: #FF00FF;
+    color: #FFFFFF;
+    padding: 10px;
+    border-top: 3px solid #000000;
+}
